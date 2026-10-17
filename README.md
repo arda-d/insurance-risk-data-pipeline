@@ -6,7 +6,7 @@ This project provides an end-to-end data pipeline and risk modeling framework fo
 The primary objective is to evaluate portfolio-level financial exposure by estimating severity metrics and downside tail risk using Value at Risk (VaR).
 
 ## Architecture & Data Flow
-1. Data Ingestion & Cleaning (`data_cleaning.py`)
+1. Data Ingestion & Cleaning (`load.py`)
    - Handles missing categorical values via imputation.
    - Applies numerical median imputation for key policy features.
    - Cleans financial fields by stripping currency symbols and casting to appropriate data types.
